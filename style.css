@@ -1,5 +1,46 @@
+:root {
+    --white: #FFFFFF;
+    --black: #2A2B2E;
+    --primary: #5C23DC;
+    --secondary: #A997DF;
+    --accent: #FF3366;
+}
+
+
+* {
+    margin: 0.1rem;
+    padding: 0.1rem;
+}
 body {
+    background-color: hsl(0 0% 76% / .4);
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#container {
+    display: flex;
+    min-height: 80vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: var(--white);
+}
+
+/* remove this later */
+#left,
+#right,
+.hero,
+.join,
+.graphic {
+    border: 1px solid black;
+}
+
+#left,
+#right {
+    flex: 1 0;
+    border-radius: 6px;
+}
+
+#left {
+    background-color: var(--primary);
 }
