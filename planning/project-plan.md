@@ -70,7 +70,13 @@ Elements:
 <strong>Low-fidelty sketch of UI</strong>
 
 
-
 ### CSS and design
 * main form should have rounded corners
 * <strong>colour palette</strong>
+    * white: #FFFFFF
+    * black: #2A2B2E
+    * primary: #5C23DC
+    * secondary: #A997DF
+    * accent: #FF3366
+* choose graphic
+* design logo
