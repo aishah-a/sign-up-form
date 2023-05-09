@@ -14,7 +14,7 @@ Pick an external font for the ‘logo’ section. We’ve used Norse Bold, but y
 For the image-sidebar, we’ve used this Odin logo. Again, feel free to replace it.
 
 <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/sign-up-form.png">
-<strong>Provided design file<strong>
+<strong>Provided design file</strong>
 
 
 #### Step 3: Some Tips!
