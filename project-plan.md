@@ -48,18 +48,25 @@ Checking that the password fields match each other requires javascript. Try to i
 ### HTML
 Elements:
 * main form div that sits in the body
-* left side hero image
+* <strong>left side hero image</strong>
     * logo/business name
     * text describing service (?)
     * photo attribution
-* right side form
+* <strong>right side form</strong>
     * sign-up header
+    * sign up with google or facebook (?) 
     * first name
     * last name
     * email
     * phone number
-    * password
+    * <strong>create password</strong>
+        * <em>rules for password appear on click</em>
         * confirm password
     * submit/create account
     * terms and conditions
     * already a member? log in
+
+
+### CSS and design
+* main form should have rounded corners
+* <strong>colour palette</strong>
