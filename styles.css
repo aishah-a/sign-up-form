@@ -34,14 +34,13 @@ body {
     flex: 1;
     position: relative;
     top: 2rem;
-    border: 1px solid black;
     border-radius: 1rem;
+    box-shadow: 10px 10px 20px var(--secondary);
     background-color: var(--white);
     height: 90vh;
     max-width: 100rem;
     min-width: 50rem;
     min-height: 35rem;
-    background-color: green; /* remove later */
 }
 
 #left,
@@ -58,6 +57,8 @@ body {
 
 #right {
     background-color: var(--white);
+    font-family: var(--mainFont);
+    color: var(--black);
 }
 
 img {
@@ -101,7 +102,39 @@ img {
 
 .attribution {
     position: relative;
-    bottom: 1.5rem;
+    bottom: 2.5rem;
     text-align: center;
-    flex: 0;
+    letter-spacing: 0.1rem;
 }
+
+.attribution a:visited {
+    color: var(--white);
+}
+
+
+#right-container {
+    position: relative;
+    top: 10rem;
+}
+
+.cta,
+form {
+    padding: 1rem;
+}
+
+.cta h3 {
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.cta p:nth-child(2) {
+    font-size: 1.3rem;
+    padding-top: 1.2rem;
+    margin-left: 0.5rem;
+}
+
+.cta a:visited,
+.cta a:active {
+    color: var(--accent);
+}
+
