@@ -1,15 +1,20 @@
 :root {
+    /* color palette */
     --white: #FFFFFF;
     --black: #2A2B2E;
     --primary: #5C23DC;
     --secondary: #A997DF;
     --accent: #FF3366;
 
+    /* dimensions */
     --container-height: 60rem;
     --container-width: 100rem;
     --graphic-width: 30rem;
-
     --hero-width: calc((var(--container-width)) /2);
+
+    /* fonts */
+    --mainFont: 'Wix Madefor Text', sans-serif;
+    --logoFont: 'Poppins', sans-serif;
 }
 
 * {
@@ -29,34 +34,58 @@ body {
     position: relative;
     top: 2rem;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 1rem;
     background-color: var(--white);
     height: clamp(40rem, var(--container-height), var(--container-height)); /* maybe change this and width later*/
     width: clamp(50rem, var(--container-width), var(--container-width));
 }
 
 /* remove this later */
-#left,
-#right,
-.hero,
-.join,
-.graphic {
+div {
     border: 1px solid black;
 }
 
 #left,
 #right {
     flex: 1 0;
-    border-radius: 6px;
+    border-radius: 0.8rem;
 }
 
 #left {
     background-color: var(--primary);
+    color: var(--white);
+    padding: 1rem;
 }
 
 .graphic {
     width: var(--graphic-width);
     position: absolute;
-    top: calc((var(--container-height) - var(--graphic-width)) /2 );
-    left: calc((var(--hero-width) - var(--graphic-width)) /2 );
+    top: calc(((var(--container-height) - var(--graphic-width)) / 2) + 10rem);
+    left: calc((var(--hero-width) - var(--graphic-width)) / 2 );
 }
+
+.join {
+    font-family: var(--mainFont);
+    color: var(--white);
+    position: relative;
+    top: 2rem;
+    padding: 1rem;
+}
+
+.join p:first-child {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.join p:nth-child(2) {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.logo {
+    font-family: var(--logoFont);
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    padding: 1rem;
+}
+
