@@ -1,0 +1,106 @@
+:root {
+    /* color palette */
+    --white: #FFFFFF;
+    --black: #2A2B2E;
+    --primary: #5C23DC;
+    --secondary: #A997DF;
+    --accent: #FF3366;
+
+    /* fonts */
+    --mainFont: 'Wix Madefor Text', sans-serif;
+    --logoFont: 'Poppins', sans-serif;
+
+    /* dimensions */
+}
+
+* { /* change this later */
+    margin: 0.1rem;
+    padding: 0.1rem;
+}
+
+/* remove this later */
+div {
+    border: 1px solid black;
+}
+
+body {
+    background-color: hsl(0 0% 80% / .3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    flex: 1;
+    position: relative;
+    top: 2rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: var(--white);
+    height: 90vh;
+    max-width: 100rem;
+    min-width: 50rem;
+    min-height: 35rem;
+    background-color: green; /* remove later */
+}
+
+#left,
+#right {
+    flex: 1;
+    padding: 1rem;
+    border-radius: 0.8rem;
+}
+
+#left {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+#right {
+    background-color: var(--white);
+}
+
+img {
+    max-height: 35rem;
+    flex: 0;
+}
+
+.graphic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.join,
+.attribution {
+    font-family: var(--mainFont);
+}
+
+.logo {
+    font-family: var(--logoFont);
+    font-size: 1.5rem;
+    letter-spacing: 0.4rem;
+}
+
+.join p:first-child {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.join p:nth-child(2) {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.join,
+.logo {
+    padding: 1em 1rem 1rem 3rem;
+}
+
+.attribution {
+    position: relative;
+    bottom: 1.5rem;
+    text-align: center;
+    flex: 0;
+}
