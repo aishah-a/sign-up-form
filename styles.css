@@ -13,9 +13,8 @@
     /* dimensions */
 }
 
-* { /* change this later */
-    margin: 0.1rem;
-    padding: 0.1rem;
+* {
+    margin: 0.125rem;
 }
 
 /* remove this later */
@@ -73,14 +72,21 @@ img {
 }
 
 .join,
-.attribution {
+.graphic {
     font-family: var(--mainFont);
+    position: relative;
+    bottom: -3rem;
+}
+
+.join p {
+    padding: 1rem 0.5rem 0.3rem 1.5rem;
 }
 
 .logo {
     font-family: var(--logoFont);
     font-size: 1.5rem;
     letter-spacing: 0.4rem;
+    padding: 1rem 0 0 1.5rem;
 }
 
 .join p:first-child {
@@ -90,12 +96,7 @@ img {
 
 .join p:nth-child(2) {
     font-size: 2rem;
-    margin-top: 2rem;
-}
-
-.join,
-.logo {
-    padding: 1em 1rem 1rem 3rem;
+    padding-top: 2rem;
 }
 
 .attribution {
