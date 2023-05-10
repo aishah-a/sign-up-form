@@ -58,18 +58,21 @@ div {
 }
 
 .graphic {
-    width: var(--graphic-width);
-    position: absolute;
-    top: calc(((var(--container-height) - var(--graphic-width)) / 2) + 10rem);
-    left: calc((var(--hero-width) - var(--graphic-width)) / 2 );
+    width: clamp(280px, 30rem, var(--graphic-width));
+    max-width: var(--graphic-width);
+    padding: 2rem 10rem 0 10rem;
+}
+
+.join,
+.logo {
+    padding: 1em 1rem 1rem 3rem;
 }
 
 .join {
     font-family: var(--mainFont);
     color: var(--white);
     position: relative;
-    top: 3.5rem;
-    padding: 1rem;
+    top: 2rem;
 }
 
 .join p:first-child {
@@ -85,8 +88,7 @@ div {
 .logo {
     font-family: var(--logoFont);
     font-size: 1.5rem;
-    letter-spacing: 0.3rem;
-    padding: 1rem;
+    letter-spacing: 0.4rem;
 }
 
 .cta {
@@ -97,8 +99,25 @@ div {
 }
 
 #right-container {
+    flex-shrink: 0;
     position: relative;
-    top: 6rem;
-    left: 2rem;
-    width: 45rem;
+    top: 8rem;
+    padding: 2rem;
 }
+
+.attribution {
+    font-family: var(--mainFont);
+    text-align: center;
+    position: relative;
+}
+
+a {
+    color: var(--white);
+}
+
+form,
+button {
+    font-family: var(--mainFont);
+    width:max-content
+}
+
