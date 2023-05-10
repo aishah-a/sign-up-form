@@ -17,13 +17,13 @@
                 <h3>IDIOMATICA</h3>
             </div>
             <div class="join">
-                <p>Start your learning journey with us!</p>
-                <p>Your new favourite language community.</p>
+                <p>Start your language journey with us!</p>
+                <p>Your new polyglot community.</p>
             </div>
             <div class="graphic">
                 <img src="assets/Learning languages-bro.svg">
                 <div class="attribution">
-                    Graphic from <a href="https://storyset.com/people">StorySet</a>
+                    Graphic from <a href="https://storyset.com/people">StorySet.</a>
                 </div>
             </div>
         </div>
@@ -33,31 +33,36 @@
                     <p>Create account.</p>
                    </div>
                 <div>
-                    <form action="#" method="post">
+                    <form action="/index.html" method="post">
                         <section>
                             <h3>Personal details</h3>
                             <label for="first-name">First Name</label>
-                            <input type="text" id="first-name" name="firstName" placeholder="Nina" />
+                            <input type="text" id="first-name" name="firstName" placeholder="Nina" required />
     
                             <label for="last-name">Last Name</label>
-                            <input type="text" id="last-name" name="lastName" placeholder="Jones" />
+                            <input type="text" id="last-name" name="lastName" placeholder="Jones" required />
                         </section>
                        
                         <section>
                             <h3>Contact information</h3>
                             <label for="email">E-mail</label>
-                            <input type="email" id="email" name="userEmail" placeholder="njones@gmail.com" />
+                            <input type="email" id="email" name="userEmail" placeholder="njones@gmail.com" required />
 
-                            <label for="phonenum">Phone number</label>
-                            <input type="tel" id="phonenum" name="userPhone" placeholder="123-456-789" />
+                            <label for="phone-num">Phone number</label>
+                            <input type="tel" id="phone-num" name="userPhone" placeholder="123-456-789" />
                         </section>
                         
                         <section>
                             <label for="password">Create password</label>
-                            <input type="password" id="password" name="userPassword" />
+                            <input type="password" id="password" name="userPassword" required />
     
                             <label for="pwconfirm">Confirm password</label>
-                            <input type="password" id="pwconfirm" name="confPassword" /> <!-- should name be userPassword?-->
+                            <input type="password" id="pwconfirm" name="confPassword" required /> <!-- should name be userPassword?-->
+                        </section>
+                        <label for="agree">I agree to Idiomatica's Terms & Conditions.</label>
+                        <input type="checkbox" id="agree" name="agreement" value="yes" required />
+                        <section>
+                            <button type="submit">Create account</button>
                         </section>
                     </form>
                 </div>
