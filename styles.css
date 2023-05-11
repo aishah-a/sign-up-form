@@ -92,7 +92,8 @@ img {
     font-family: var(--logoFont);
     font-size: 1rem;
     letter-spacing: 0.4rem;
-    padding: 0;
+    padding-top: 0.3rem;
+    padding-left: 0.2rem;
 }
 
 .join p:first-child {
