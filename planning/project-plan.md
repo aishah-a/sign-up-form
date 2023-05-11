@@ -32,11 +32,11 @@ Checking that the password fields match each other requires javascript. Try to i
 ## Plan
 
 #### Features to implement
-* password checking/confirmation match
-* password strength checker?
-* input boxes increase in size/zoom on mouse hover to encourage input
-* media query for small screens
-* create account via google/facebook UI
+* password checking/confirmation match 
+* password strength checker? 
+* input boxes increase in size/zoom on mouse hover to encourage input 
+* media query for small screens 
+* create account via google/facebook UI 
 
 ##### Name ideas
 * LinguaLink / LenguaLink
@@ -81,7 +81,21 @@ Checking that the password fields match each other requires javascript. Try to i
     * secondary: #A997DF
     * accent: #FF3366
     <img src="color-palette.png">
-* choose graphic
-    * [attribution] (https://storyset.com/people)
-* design logo
-* add glow/blur around container
+* choose graphic 
+    * ![attribution](https://storyset.com/people)
+* design logo 
+* add glow/blur around container 
+
+
+#### Form Validation
+* required fields > mark label with asterisk 
+* password 
+    * at least 6 characters
+    * at least one uppercase charater
+    * at least one number
+    * at least one special character
+
+
+### Javascript
+* Submit button event listener -> offset button on click to make it look like it's moving 
+
