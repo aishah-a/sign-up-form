@@ -85,6 +85,7 @@ Checking that the password fields match each other requires javascript. Try to i
     * ![attribution](https://storyset.com/people)
 * design logo 
 * add glow/blur around container 
+* increase space between form elements and move right panel container up
 
 
 #### Form Validation
