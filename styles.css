@@ -18,11 +18,6 @@
     margin: 0.125rem;
 }
 
-/* remove this later */
-#right div {
-    border: 1px solid black;
-}
-
 body {
     background-color: hsl(0 0% 80% / .3);
     display: flex;
@@ -57,7 +52,7 @@ body {
 }
 
 #right {
-    background-color: pink;
+    background-color: var(--white);
     font-family: var(--mainFont);
     color: var(--black);
     max-width: var(--containermaxwidth);
@@ -80,28 +75,30 @@ img {
 .graphic {
     font-family: var(--mainFont);
     position: relative;
-    bottom: -3rem;
+    top: 2rem;
 }
 
 .join p {
     padding: 1rem 0.5rem 0.3rem 1.5rem;
+    position: relative;
+    top: -1rem;
 }
 
 .logo {
     font-family: var(--logoFont);
-    font-size: 1.5rem;
+    font-size: 1rem;
     letter-spacing: 0.4rem;
-    padding: 1.2rem 0 0 1.5rem;
+    padding: 0;
 }
 
 .join p:first-child {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
 }
 
 .join p:nth-child(2) {
-    font-size: 2rem;
-    padding-top: 2rem;
+    font-size: 1.6rem;
+    padding-top: 0.8rem;
 }
 
 .attribution {
@@ -125,15 +122,25 @@ form {
     padding: 0.5rem;
 }
 
+.cta {
+    position: relative;
+    top: 0.9rem;
+}
+
 .cta h3 {
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-weight: 600;
+    position: relative;
+    top: 0.5rem;
+    left: 0.8rem;
 }
 
 .cta p:nth-child(2) {
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding-top: 1.2rem;
-    margin-left: 0.5rem;
+    margin-left: 2px;
+    position: relative;
+    left: 0.8rem;
 }
 
 .cta a:visited,
@@ -145,7 +152,7 @@ form {
 label {
     padding: 0.5rem;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
 }
 
 section {
@@ -153,12 +160,17 @@ section {
     display: flex;
 }
 
+.submit-btn {
+    position: relative;
+    bottom: 0.8rem;
+}
+
 button {
     display: inline-block;
     border: none;
     border-radius: 0.8rem;
     box-shadow: 5px 5px 10px var(--secondary);
-    padding: 1.5rem 2rem;
+    padding: 1rem 1rem;
     margin: 1rem;
     width: 30rem; /* change later */
     text-decoration: none;
@@ -176,11 +188,11 @@ button:hover {
 }
 
 input:not([type="checkbox"]) {
-  width: 12rem;
-  height: auto;
+  width: 13rem;
+  height: 0.8rem;
   padding: 0.5rem;
   margin: 0 0.5rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
   border: 2px solid var(--secondary);
   border-radius: 0.6rem;
 }
@@ -192,8 +204,8 @@ input:not([type="checkbox"]) {
 }
 
 input[type="checkbox"] {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.2rem;
+    height: 1.2rem;
 }
 
 .useragree {
@@ -201,9 +213,8 @@ input[type="checkbox"] {
     align-items: center;
     padding: 5px;
     position: relative;
-    top: 0.5rem;
 }
 
 .useragree label {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
