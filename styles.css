@@ -18,7 +18,7 @@
 }
 
 /* remove this later */
-div {
+#right div {
     border: 1px solid black;
 }
 
@@ -53,6 +53,7 @@ body {
 #left {
     background-color: var(--primary);
     color: var(--white);
+    margin: 0.8rem;
 }
 
 #right {
@@ -110,7 +111,6 @@ img {
 .attribution a:visited {
     color: var(--white);
 }
-
 
 #right-container {
     position: relative;
