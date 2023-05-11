@@ -75,6 +75,10 @@ img {
 .graphic {
     font-family: var(--mainFont);
     position: relative;
+
+}
+
+.join {
     top: 2rem;
 }
 
@@ -172,7 +176,7 @@ button {
     box-shadow: 5px 5px 10px var(--secondary);
     padding: 1rem 1rem;
     margin: 1rem;
-    width: 30rem; /* change later */
+    width: 28rem; /* change later */
     text-decoration: none;
     background: var(--primary); /* linear-gradient(45deg, var(--primary), var(--accent) 95%); */
     color: var(--white);
@@ -188,13 +192,19 @@ button:hover {
 }
 
 input:not([type="checkbox"]) {
-  width: 13rem;
+  width: 12rem;
   height: 0.8rem;
-  padding: 0.5rem;
-  margin: 0 0.5rem;
+  padding: 0.6rem;
+  margin: 0 0.8rem;
   font-size: 1rem;
-  border: 2px solid var(--secondary);
+  font-family: var(--mainFont);
+  border: 1px solid var(--secondary);
   border-radius: 0.6rem;
+}
+
+input:not([type="checkbox"]):focus {
+    border: 0.5px solid var(--accent);
+    box-shadow: 2px 2px 5px var(--accent);
 }
 
 .form-flex {
@@ -217,4 +227,9 @@ input[type="checkbox"] {
 
 .useragree label {
     font-size: 0.8rem;
+}
+
+label:not([class="useragree"]) {
+    position: relative;
+    left: 0.3rem;
 }
