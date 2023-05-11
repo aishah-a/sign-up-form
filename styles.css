@@ -152,7 +152,7 @@ button {
     border-radius: 0.8rem;
     padding: 1rem 2rem;
     margin: 1rem;
-    width: 45rem; /* change later */
+    width: 40rem; /* change later */
     text-decoration: none;
     background: var(--primary);
     color: var(--white);
