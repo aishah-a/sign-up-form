@@ -168,6 +168,7 @@ section {
 .submit-btn {
     position: relative;
     bottom: 0.8rem;
+    left: 1rem;
 }
 
 button {
@@ -175,9 +176,9 @@ button {
     border: none;
     border-radius: 0.8rem;
     box-shadow: 5px 5px 10px var(--secondary);
-    padding: 1rem 1rem;
+    padding: 0.8rem 1rem;
     margin: 1rem;
-    width: 28rem; /* change later */
+    width: 25rem; /* change later */
     text-decoration: none;
     background: var(--primary); /* linear-gradient(45deg, var(--primary), var(--accent) 95%); */
     color: var(--white);
@@ -204,7 +205,6 @@ input:not([type="checkbox"]) {
 }
 
 input:not([type="checkbox"]):focus {
-    border: 0.5px solid var(--accent);
     box-shadow: 2px 2px 5px var(--accent);
 }
 
