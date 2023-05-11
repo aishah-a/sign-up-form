@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Wix+Madefor+Text:wght@400;600;800&display=swap');
         </style>        
@@ -23,19 +23,19 @@
             <div class="graphic">
                 <img src="assets/Learning languages-bro.svg">
                 <div class="attribution">
-                    Graphic from <a href="https://storyset.com/people">StorySet.</a>
+                    Graphic from <a href="https://storyset.com/people">StorySet</a>.
                 </div>
             </div>
         </div>
         <div id="right">
             <div id="right-container">
                 <div class="cta">
-                    <p>Create account.</p>
+                    <h3>Create account.</h3>
+                    <p>Already a member? <a href="#">Log in</a></p>
                    </div>
                 <div>
-                    <form action="/index.html" method="post">
-                        <section>
-                            <h3>Personal details</h3>
+                    <form>
+                        <section class="sct1">
                             <label for="first-name">First Name</label>
                             <input type="text" id="first-name" name="firstName" placeholder="Nina" required />
     
@@ -43,8 +43,7 @@
                             <input type="text" id="last-name" name="lastName" placeholder="Jones" required />
                         </section>
                        
-                        <section>
-                            <h3>Contact information</h3>
+                        <section class="sct2">
                             <label for="email">E-mail</label>
                             <input type="email" id="email" name="userEmail" placeholder="njones@gmail.com" required />
 
@@ -52,16 +51,18 @@
                             <input type="tel" id="phone-num" name="userPhone" placeholder="123-456-789" />
                         </section>
                         
-                        <section>
+                        <section class="sct3">
                             <label for="password">Create password</label>
                             <input type="password" id="password" name="userPassword" required />
     
                             <label for="pwconfirm">Confirm password</label>
                             <input type="password" id="pwconfirm" name="confPassword" required /> <!-- should name be userPassword?-->
                         </section>
-                        <label for="agree">I agree to Idiomatica's Terms & Conditions.</label>
-                        <input type="checkbox" id="agree" name="agreement" value="yes" required />
-                        <section>
+                        <section class="sct4">
+                            <label for="agree">I agree to Idiomatica's Terms & Conditions.</label>
+                            <input type="checkbox" id="agree" name="agreement" value="yes" required />
+                        </section>
+                        <section class="sct5">
                             <button type="submit">Create account</button>
                         </section>
                     </form>
