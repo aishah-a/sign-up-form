@@ -88,7 +88,7 @@ img {
     font-family: var(--logoFont);
     font-size: 1.5rem;
     letter-spacing: 0.4rem;
-    padding: 1rem 0 0 1.5rem;
+    padding: 1.2rem 0 0 1.5rem;
 }
 
 .join p:first-child {
@@ -138,3 +138,10 @@ form {
     color: var(--accent);
 }
 
+label {
+    padding: 0.5rem;
+}
+
+section {
+    padding: 0.5rem;
+}
