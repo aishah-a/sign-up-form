@@ -155,7 +155,7 @@ button {
     border: none;
     border-radius: 0.8rem;
     box-shadow: 5px 5px 10px var(--secondary);
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem;
     margin: 1rem;
     width: 30rem; /* change later */
     text-decoration: none;
@@ -163,7 +163,7 @@ button {
     color: var(--white);
     font-family: var(--mainFont);
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 600;
     cursor: pointer;
     text-align: center;
 }
