@@ -130,6 +130,7 @@ form {
 .cta {
     position: relative;
     top: 0.9rem;
+    left: 0.6rem;
 }
 
 .cta h3 {
@@ -142,7 +143,7 @@ form {
 
 .cta p:nth-child(2) {
     font-size: 1rem;
-    padding-top: 1.2rem;
+    padding-top: 1rem;
     margin-left: 2px;
     position: relative;
     left: 0.8rem;
@@ -180,7 +181,7 @@ button {
     margin: 1rem;
     width: 25rem; /* change later */
     text-decoration: none;
-    background: var(--primary); /* linear-gradient(45deg, var(--primary), var(--accent) 95%); */
+    background: var(--primary);
     color: var(--white);
     font-family: var(--mainFont);
     font-size: 1.5rem;
@@ -205,7 +206,10 @@ input:not([type="checkbox"]) {
 }
 
 input:not([type="checkbox"]):focus {
-    box-shadow: 2px 2px 5px var(--accent);
+    outline: none;
+    border: 1px solid var(--secondary);
+    box-shadow: 2px 2px 2px var(--secondary);
+
 }
 
 .form-flex {
