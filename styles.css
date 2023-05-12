@@ -190,9 +190,12 @@ button {
     text-align: center;
 }
 
+/*
 button:hover {
     background: linear-gradient(121.5deg, var(--primary), var(--accent) 90%);
 }
+
+*/
 
 input:not([type="checkbox"]) {
   width: 12rem;
