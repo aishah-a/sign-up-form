@@ -1,44 +1,29 @@
 const container = document.getElementById("container");
 const passwordDiv = document.getElementById("userpassword");
+const submitBtn = document.getElementById("submitbtn");
 
-let pwvalid;
+let formValid = false;
+let pwvalid = false;
 
 let confirm = () => {
     let pw = document.getElementById("password");
     let cpw = document.getElementById("pwconfirm");
 
-    if (pw.value == cpw.value && pw.value !== "") {
-        console.log("match");
-        pwvalid = true;
-    } else {
-        pwvalid = false;
-        console.log("false");
+    if (pwvalid = true) {
+        cpw.style.backgroundColor = '#FFFFFF'
+    }
+
+    if (pw.value !== '' && cpw.value !== '') {
+        if (pw.value == cpw.value) {
+            pwvalid = true;
+            console.log('match');
+            pw.style.border = '1px solid #60993E'
+            cpw.style.border = '1px solid #60993E'
+        } else {
+            pwvalid = false;
+            pw.style.border = '1px solid #5C23DC'
+            cpw.style.border = '1px solid #D00000'
+            cpw.style.backgroundColor = '#FFD6D6'
+        }
     }
 }
-
-
-
-
-const submitBtn = document.getElementById("submitbtn");
-submitBtn.addEventListener("mouseenter", btnHover);
-
-function btnHover() {
-    submitBtn.style.background = 'linear-gradient(121.5deg, #5C23DC, #FF3366 90%)'
-}
-
-submitBtn.addEventListener("mouseleave", btnReset);
-
-function btnReset() {
-    submitBtn.style.background = '#5C23DC'
-}
-
-submitBtn.addEventListener("click", greenBtn);
-
-function greenBtn() {
-  submitBtn.removeEventListener("mouseenter", btnHover);
-  submitBtn.removeEventListener("mouseleave", btnReset);
-  console.log("Hello World");
-  submitBtn.style.background = 'green';
-  submitBtn.innerText = 'Form submitted.';
-}
-
