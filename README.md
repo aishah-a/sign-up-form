@@ -3,7 +3,7 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<h2 align="center">Sign-up Form</h2>
+<h1 align="center">Sign-up Form</h1>
 
   <p align="center">
     Sign-up form created for Intermediate HTML & CSS Course @ <a href="https://www.theodinproject.com/">The Odin Project</a>
@@ -35,7 +35,8 @@
 <p>The project objective was to recreate a sign-up form from an existing design file, to utilise the CSS tools covered in the course lessons. </p>
 
 <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/sign-up-form.png" style="height: 300px">
-<em>Provided design file</em>
+<strong>Provided design file</strong>
+<br>
 
 <p>I opted to create my own design, to practice using CSS variables and some selectors I hadn't used before. </p>
 
