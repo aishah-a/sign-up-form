@@ -30,7 +30,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-* [![Form][Screenshot]][]
+![Form](/assets/graphic.svg)
 
 <p>The project objective was to recreate a sign-up form from an existing design file, to utilise the CSS tools covered in the course lessons. </p>
 
@@ -81,6 +81,3 @@ Project Link: [https://github.com/aishah-a/sign-up-form](https://github.com/aish
 
 [HTML5]: https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge
 [HTML-url]: https://html.com
-
-
-[Screenshot]: /assets/graphic.svg
