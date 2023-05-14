@@ -34,7 +34,7 @@
                     <p>Already a member? <a href="#">Log in</a></p>
                    </div>
                 <div>
-                    <form>
+                    <form method="post" onsubmit="return checkSubmission()">
                         <section class="sct1">
                             <div class="form-flex firstname">
                                 <label for="first-name">First Name <span class="required">*</span></label>
@@ -59,12 +59,12 @@
                         </section>
                         
                         <section class="sct3">
-                            <div class="form-flex userpasswordBox">
+                            <div id="password_div" class="form-flex">
                                 <label for="password">Create password <span class="required">*</span></label>
-                                <input type="password" id="password" name="userPassword" onblur="confirm()" required/>    
+                                <input type="password" id="password_input" name="userPassword" onblur="confirm()" required/>    
                             </div>
                             
-                            <div class="form-flex confpassword">
+                            <div id="confpassword" class="form-flex">
                                 <label for="pwconfirm">Confirm password <span class="required">*</span></label>
                                 <input type="password" id="pwconfirm" name="confPassword" onblur="confirm()" required /> <!-- should name be userPassword?-->
                             </div>
