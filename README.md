@@ -1,10 +1,9 @@
-# sign-up-form
 <a name="readme-top"></a>
 
 
 <!-- PROJECT LOGO -->
 <br />
-<h3 align="center">Sign-up Form</h3>
+<h2 align="center">Sign-up Form</h2>
 
   <p align="center">
     Sign-up form created for Intermediate HTML & CSS Course @ <a href="https://www.theodinproject.com/">The Odin Project</a>
