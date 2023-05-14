@@ -65,9 +65,7 @@
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@aishahthedev](https://twitter.com/aishahthedev)
-
-Project Link: [https://github.com/aishah-a/sign-up-form](https://github.com/aishah-a/sign-up-form)
+Twitter - [@aishahthedev](https://twitter.com/aishahthedev)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
