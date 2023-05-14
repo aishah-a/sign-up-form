@@ -30,12 +30,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="../assets/logo.png">
+* [![Form][Screenshot]][]
 
 <p>The project objective was to recreate a sign-up form from an existing design file, to utilise the CSS tools covered in the course lessons. </p>
 
-<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/sign-up-form.png" style="height: 50px">
-<strong>Provided design file</strong>
+<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/sign-up-form.png" style="height: 300px">
+<em>Provided design file</em>
 
 <p>I opted to create my own design, to practice using CSS variables and some selectors I hadn't used before. </p>
 
@@ -56,8 +56,8 @@
 ## Features to implement
 
 - [x] Password validation with JS
-    - [] Password strength checker
-- [] Make responsive with media queries
+    - [ ] Password strength checker
+- [ ] Make responsive with media queries
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
