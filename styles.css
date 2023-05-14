@@ -242,19 +242,30 @@ label:not([class="useragree"]) {
     left: 0.3rem;
 }
 
-.pw_rules {
-    position: relative;
+.pw_rules,
+.cpw_error {
     background-color: var(--white);
-    border: 2px solid var(--accent);
+    border: 2px solid var(--secondary);
     border-radius: 0.5rem;
     font-family: var(--mainFont);
     color: var(--black);
     z-index: 1;
     position: absolute;
-    bottom: 7rem;
     font-size: 0.9rem;
     padding: 0.7rem;
 }
+
+.pw_rules {
+    bottom: 7rem;
+
+}
+
+.cpw_error {
+    bottom: 9rem;
+    right: 3.5rem;
+    font-weight: 600;
+}
+
 
 
 .confpassword {
