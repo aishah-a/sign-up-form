@@ -6,18 +6,15 @@
 <br />
 <div align="center">
   <a href="https://github.com/aishah-a/sign-up-form">
-    <img src="assets/logo.png" alt="Logo" width="80" height="80">
+    <img src="assets/graphic.svg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Sign-up Form</h3>
 
   <p align="center">
-    project_description
+    Sign-up form created for Intermediate HTML & CSS Course @ <a href="https://www.theodinproject.com/">The Odin Project</a>
     <br />
-    <a href="https://github.com/aishah-a/sign-up-form"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/aishah-a/sign-up-form">View Demo</a>
+    <a href="https://aishah-a.github.io/sign-up-form/">Live Demo</a>
     ·
   </p>
 </div>
@@ -38,16 +35,19 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Project Screenshot][Screenshot]]
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `aishah-a`, `sign-up-form`, `aishahthedev`, `linkedin_username`, `Sign-up Form`, `project_description`
+<p>The project objective was to recreate a sign-up form from an existing design file, to utilise the CSS tools covered in the course lessons. </p>
 
-<!-- describle project requirements, link to project -->
+<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/sign-up-form.png">
+<strong>Provided design file</strong>
+
+<p>I opted to create my own design, to practice using CSS variables and some selectors I hadn't used before. </p>
+
+<p>This project took me a little longer than needed, as I was tempted to add a number of non-required functionalities not directly related to the project objective. I may revisit the project later, as there are still features I would like to implement, such as making the form responsive using media queries. But for now, I think I have met the requirements of the project.</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,3 +89,6 @@ Project Link: [https://github.com/aishah-a/sign-up-form](https://github.com/aish
 
 [HTML5]: https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge
 [HTML-url]: https://html.com
+
+
+[Screenshot]: /assets/graphic.svg
