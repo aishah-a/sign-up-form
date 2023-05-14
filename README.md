@@ -22,19 +22,19 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li><a href="#features">features</a></li>
-    <li><a href="#contact">features</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Project Screenshot][Screenshot]]
+<img src="../assets/logo.png">
 
 <p>The project objective was to recreate a sign-up form from an existing design file, to utilise the CSS tools covered in the course lessons. </p>
 
-<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/sign-up-form.png">
+<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/sign-up-form.png" style="height: 50px">
 <strong>Provided design file</strong>
 
 <p>I opted to create my own design, to practice using CSS variables and some selectors I hadn't used before. </p>
