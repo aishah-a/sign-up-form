@@ -30,7 +30,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Form](/assets/graphic.svg)
+![Form](/assets/logo.png)
 
 <p>The project objective was to recreate a sign-up form from an existing design file, to utilise the CSS tools covered in the course lessons. </p>
 
