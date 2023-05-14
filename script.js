@@ -60,10 +60,8 @@ passwordInput.addEventListener("keydown", () => {
 
 function validateForm() {
     if (pwValid == true && confirmPw == true) {
-        console.log('valid');
         return true;
     } else {
-        console.log('invalid');
         return false;
     }
 }
