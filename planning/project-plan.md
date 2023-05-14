@@ -21,10 +21,11 @@ Checking that the password fields match each other requires javascript. Try to i
 ## Plan
 
 #### Features to implement
-[] password checking/confirmation match 
+[x] password checking/confirmation match 
 [] password strength checker? 
 [] media query for small screens 
 [] add "create account via google/facebook"
+[] Add dashes to phone number input e.g. 123-456-789
 
 ##### Name ideas
 * LinguaLink / LenguaLink
@@ -68,18 +69,18 @@ Checking that the password fields match each other requires javascript. Try to i
     * primary: #5C23DC
     * secondary: #A997DF
     * accent: #FF3366
+    * green: #2CDA9D
     <img src="color-palette.png">
 [x] choose graphic 
     * ![attribution](https://storyset.com/people)
 [x] design logo 
 [x] input focus mode accent colour
 [] style form validation errors
-[] add button click animation
 
 
 #### Form Validation
 [x] required fields > mark label with asterisk 
-[] password 
+[x] password 
     * at least 6 characters
     * at least one uppercase charater
     * at least one number
@@ -87,6 +88,3 @@ Checking that the password fields match each other requires javascript. Try to i
 
 
 ### Javascript
-[] Submit button event listener -> offset button on click to make it look like it's moving 
-[] Add dashes to phone number input e.g. 123-456-789
-[] Only allow submit to be clicked AND turn green when all required fields complete - add if statement to greenBtn event listener
