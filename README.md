@@ -4,21 +4,14 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
-  <a href="https://github.com/aishah-a/sign-up-form">
-    <img src="../assets/graphic.svg" alt="Logo" width="80" height="80">
-  </a>
-
 <h3 align="center">Sign-up Form</h3>
 
   <p align="center">
     Sign-up form created for Intermediate HTML & CSS Course @ <a href="https://www.theodinproject.com/">The Odin Project</a>
     <br />
     <a href="https://aishah-a.github.io/sign-up-form/">Live Demo</a>
-    ·
   </p>
 </div>
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
