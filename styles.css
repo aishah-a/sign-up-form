@@ -191,12 +191,9 @@ button {
     text-align: center;
 }
 
-/*
 button:hover {
     background: linear-gradient(121.5deg, var(--primary), var(--accent) 90%);
 }
-
-*/
 
 input:not([type="checkbox"]) {
   width: 12rem;
@@ -257,17 +254,10 @@ label:not([class="useragree"]) {
 
 .pw_rules {
     bottom: 7rem;
-
 }
 
 .cpw_error {
     bottom: 9rem;
     right: 3.5rem;
     font-weight: 600;
-}
-
-
-
-.confpassword {
-    position: relative;
 }
