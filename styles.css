@@ -213,7 +213,6 @@ input:not([type="checkbox"]):focus {
     outline: none;
     border: 1px solid var(--secondary);
     box-shadow: 2px 2px 2px var(--secondary);
-
 }
 
 .form-flex {
@@ -241,4 +240,23 @@ input[type="checkbox"] {
 label:not([class="useragree"]) {
     position: relative;
     left: 0.3rem;
+}
+
+.pw_rules {
+    position: relative;
+    background-color: var(--white);
+    border: 2px solid var(--accent);
+    border-radius: 0.5rem;
+    font-family: var(--mainFont);
+    color: var(--black);
+    z-index: 1;
+    position: absolute;
+    bottom: 7rem;
+    font-size: 0.9rem;
+    padding: 0.7rem;
+}
+
+
+.confpassword {
+    position: relative;
 }
