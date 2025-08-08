@@ -2,13 +2,15 @@ html,
 body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: #EFF6EE;
 }
 
 body {
     margin: 0;
+    background-color: black;
 }
 .container {
-    background-color: pink;
     display: flex;
     height: 100%;
 }
@@ -18,32 +20,107 @@ body {
     flex: 1;
 }
 
-.image {
-    background-color: peachpuff;
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* preserve aspect ratio */
 }
 
 .main {
-    background-color: lemonchiffon;
+    background-color: #02060D;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 .main_title {
-    background-color: darksalmon;
-    flex: 0.5;
+    flex: 0.3;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     font-size: 2.3rem;
     font-weight: 700;
 }
 
 .form_cont {
-    background-color: khaki; /* remove */
     flex: 2;
 }
 
 form {
-    background-color: aquamarine;
+    padding: 10px;
+}
+
+.second,
+.third,
+.fourth {
+    margin-top: 30px;
+}
+
+/* form div:not(.first):not(.tandc):not(.tick) {
+    margin-top: 30px;
+} */
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    height: 2rem;
+    border: 1px solid rgba(240, 230, 239, 0.15);
+    padding: 3px 3px 3px 10px;
+    background-color: #24232B;
+}
+
+input,
+button {
+    border-radius: 8px;
+}
+
+input#email,
+input#password,
+input#pw_confirm {
+    width: 70ch;
+}
+
+div.first input {
+    width: 32ch;
+}
+
+div.submit {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 75%;
+    height: 70%;
+    border: none;
+    font-size: 1rem;
+    color: #EFF6EE;
+    background-color: #5747FF;
+}
+
+.first {
+    display: flex;
+    justify-content: flex-start;
+    padding: 2px;
+    gap: 28px;
+}
+
+.tandc,
+.first,
+.submit {
+    margin-top: 10px;
+}
+
+.tandc {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.8rem;
 }
