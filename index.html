@@ -11,27 +11,54 @@
 </head>
 <body>
     <div class="container">
-        <div class="image">Image goes here</div>
+        <div class="image">
+            <img src="assets/martin-martz-UnfxhYIgHmc-unsplash.jpg" alt="Purple sidebar image">
+        </div>
         <div class="main">
             <div class="main_title">
                 <div class="title_text">Create an account</div>
             </div>
-            <div class="form_cont">Form content
+            <div class="form_cont">
                 <form>
-                    <label for="">First name</label>
-                    <input type="text" name="first_name" id="first_name">
 
-                    <label for="last_name">Last name</label>
-                    <input type="text" name="last_name" id="last_name">
+                    <div class="first">
+                        <div class="name1">
+                            <label for="first_name">First name</label>
+                            <input type="text" name="first_name" id="first_name" placeholder="Enter first name" required>
+                        </div>
+                        <div class="name2">
+                            <label for="last_name">Last name</label>
+                            <input type="text" name="last_name" id="last_name" placeholder="Enter last name" required>
+                        </div>
+                    </div>
 
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
+                    <div class="second">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email address">
+                    </div>
 
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password">
+                    <div class="third">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="Enter a password">
+                    </div>
                     
-                    <label for="pw_confirm">Confirm your password</label>
-                    <input type="password" name="pw_confirm" id="pw_confirm">
+                    <div class="fourth">
+                        <label for="pw_confirm">Confirm your password</label>
+                        <input type="password" name="pw_confirm" id="pw_confirm" placeholder="Reenter password">
+                    </div>
+
+                    <div class="tandc">
+                        <div class="tick">
+                            <input type="checkbox" name="terms" id="terms" required>                            
+                        </div>
+                        <div class="terms_text">
+                            I have read and agree to the <a href="#">Terms & Conditions</a> of this service.                            
+                        </div>
+                    </div>
+
+                    <div class="submit">
+                        <button class="submit">Sign up</button>
+                    </div>
                 </form>
             </div>
         </div>
