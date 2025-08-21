@@ -6,6 +6,10 @@ body {
     color: #EFF6EE;
 }
 
+input {
+    color: #EFF6EE;
+}
+
 body {
     margin: 0;
     background-color: black;
@@ -123,4 +127,12 @@ button {
     align-items: center;
     gap: 5px;
     font-size: 0.8rem;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+}
+
+.terms_text {
+    font-size: 0.9rem;
 }
