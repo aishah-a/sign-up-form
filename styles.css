@@ -133,6 +133,7 @@ input[type="checkbox"] {
     width: 20px;
 }
 
-.terms_text {
+.terms_text,
+.req_text {
     font-size: 0.9rem;
 }
