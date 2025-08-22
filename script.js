@@ -1,31 +1,3 @@
-
-
-
-
-// function checkpassword() {
-//     if (passwordInput.value === pwConfirmInput) {
-//         console.log("you typed" + pwConfirmInput);
-//         correctpassword = true;
-//     }
-// }
-
-// // show password rules on input focus
-
-// // create div containing password rules
-// const pwRules = document.createElement("div");
-// pwRules.style.backgroundColor = "pink";
-// pwRules.textContent = "hi there, bla bla bla";
-
-
-
-// password.addEventListener("focus", () => {
-
-//     console.log("in focus");
-//     password.appendChild(pwRules);
-//     }
-// )
-
-
 // password validation
 
 const pwDiv = document.querySelector(".password_div");
@@ -55,7 +27,6 @@ rules.setAttribute("class", "rules")
 
 
 password.addEventListener("focus", () => {
-        
     pwDiv.appendChild(rules);
 })
 
