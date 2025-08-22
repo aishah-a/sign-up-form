@@ -3,9 +3,11 @@ const form = document.querySelector("form");
 const pwDiv = document.querySelector(".password_div");
 const confirmDiv = document.querySelector(".confirm_div");
 const password = document.querySelector("#password");
-const confirm = document.querySelector("#pw_confirm");
+const confirmPw = document.querySelector("#pw_confirm");
 const submit = document.querySelector("button");
 
+password.value = "";
+confirmPw.value = "";
 
 // show rules
 const rules = document.createElement("div");
@@ -26,20 +28,44 @@ password.addEventListener("blur", () => {
 
 // check passwords match
 
-let correctPassword = false;
+let correctPassword;
 
-function checkPassword() {
-    if (password.value === confirm.value) {
-        correctPassword = true
+
+function check() {
+    correctPassword = false;
+    if (password.value === confirmPw.value) {
+        correctPassword = true;
+    } else {
+        confirmPw.style.border = "2px solid red";
     }
 }
 
 // prevent form submission if incorrect password
 form.addEventListener("submit", function(e) {
-    checkPassword();
-    if (correctPassword === false) {
+    check();
+    if (correctPassword == false) {
         e.preventDefault();
     }
 })
 
+confirmPw.addEventListener("blur", () => {
+    if (confirmPw.value == "") {
+        confirmPw.style.border = "2px solid red";
+    } else {
+        check();
+        if (correctPassword == true) {
+            confirmPw.style.border = "none";
+        } else {
+            confirmPw.style.border = "2px solid red";
+        }
+        }
+    }
+)
 
+password.addEventListener("blur", () => {
+    if (password.value == "") {
+    password.style.border = "2px solid red";
+    } else {
+        password.style.border = "none";
+    }
+})
