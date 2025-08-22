@@ -21,41 +21,32 @@
             <div class="form_cont">
                 <form>
                     <p class="req_text">Required fields are followed by <span aria-label="required">*</span>.</p>
-                    <section>
                         <div class="first">
                             <div class="name1">
                                 <label for="first_name">First name *</label>
-                                <input type="text" name="first_name" id="first_name" minlength="2" max="35" placeholder="Enter first name" required>
+                                <input type="text" name="first_name" id="first_name" minlength="2" max="35" placeholder="Enter first name" required />
                             </div>
                             <div class="name2">
                                 <label for="last_name">Last name</label>
-                                <input type="text" name="last_name" id="last_name" minlength="2" max="35" placeholder="Enter last name" required>
+                                <input type="text" name="last_name" id="last_name" minlength="2" max="35" placeholder="Enter last name" required />
                             </div>
                         </div>
-                    </section>
 
-                    <section>
                         <div class="second">
                             <label for="email">Email <span aria-label="required">*</span></label>
-                            <input type="email" name="email" id="email" placeholder="Email address">
+                            <input type="email" name="email" id="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" placeholder="Email address" required />
                         </div>
-                    </section>
 
-                    <section>
                         <div class="password_div third">
                             <label for="password">Password <span aria-label="required">*</span></label>
                             <input type="password" name="password" id="password" placeholder="Enter a password">
                         </div>
-                    </section>
                     
-                    <section>
                         <div class="fourth confirm_div">
                             <label for="pw_confirm">Confirm your password <span aria-label="required">*</span></label>
                             <input type="password" name="pw_confirm" id="pw_confirm" placeholder="Reenter password">
                         </div>
-                    </section>
 
-                    <section>
                         <div class="tandc">
                             <div class="tick">
                                 <input type="checkbox" name="terms" id="terms" required>                            
@@ -68,7 +59,6 @@
                         <div class="submit">
                             <button class="submit">Sign up</button>
                         </div>
-                    </section>
                 </form>
             </div>
         </div>
