@@ -6,10 +6,6 @@ body {
     color: #EFF6EE;
 }
 
-input {
-    color: #EFF6EE;
-}
-
 body {
     margin: 0;
     background-color: black;
@@ -76,6 +72,7 @@ input {
     border: 1px solid rgba(240, 230, 239, 0.15);
     padding: 3px 3px 3px 10px;
     background-color: #24232B;
+    color: #EFF6EE;
 }
 
 input,
@@ -87,6 +84,12 @@ input#email,
 input#password,
 input#pw_confirm {
     width: 70ch;
+}
+
+
+input:focus {
+    background-color: #3A3743;
+    border: 1px solid #EFF6EE;
 }
 
 div.first input {
@@ -107,6 +110,11 @@ button {
     font-size: 1rem;
     color: #EFF6EE;
     background-color: #5747FF;
+}
+
+button:hover {
+    color: black;
+    background-color: #695CFF;
 }
 
 .first {
@@ -136,4 +144,21 @@ input[type="checkbox"] {
 .terms_text,
 .req_text {
     font-size: 0.9rem;
+}
+
+
+a {
+    text-decoration: none;
+    color: #EFF6EE;
+}
+
+.rules {
+    position: absolute;
+    background-color: #EFF6EE;
+    color: #02060D;
+    padding: 8px;
+    border-radius: 2px;
+    margin-top: 5px;
+    right: 30px;
+    font-size: 0.8rem;
 }
