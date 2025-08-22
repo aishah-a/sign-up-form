@@ -16,9 +16,10 @@ let rulesText = "Password must be at least 8 characters. \n \ Password must cont
 rules.innerText = rulesText;
 rules.setAttribute("class", "rules")
 
-
 password.addEventListener("focus", () => {
+    if (password.value == "") {
     pwDiv.appendChild(rules);
+    }
 })
 
 password.addEventListener("blur", () => {
@@ -30,6 +31,9 @@ password.addEventListener("blur", () => {
 
 let correctPassword;
 
+const doNotMatch = document.createElement("div");
+doNotMatch.setAttribute("class", "match")
+doNotMatch.innerText = "Password does not match";
 
 function check() {
     correctPassword = false;
@@ -37,6 +41,7 @@ function check() {
         correctPassword = true;
     } else {
         confirmPw.style.border = "2px solid red";
+        confirmDiv.appendChild(doNotMatch);
     }
 }
 
@@ -58,7 +63,10 @@ confirmPw.addEventListener("blur", () => {
         } else {
             confirmPw.style.border = "2px solid red";
         }
-        }
+    }
+    if ((confirm.value != "") && (correctPassword == true)) {
+        doNotMatch.remove();
+    }
     }
 )
 
